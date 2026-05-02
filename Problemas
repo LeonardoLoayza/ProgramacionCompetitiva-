@@ -1,0 +1,317 @@
+Ir al inicio
+
+Problema 0
+
+
+C++
+ Ningún archivo seleccionado Enviar respuesta
+Mediana
+Dado un array de tamaño N, encuentra su mediana.
+
+Recuerda que la mediana de un array de tamaño N es el elemento del array ordenado en la posición ⌊(N+1)/2⌋.
+
+
+Entrada
+Una línea con un entero N (1 ≤ n ≤ 105) seguido de una línea con N enteros A[i] (-109 ≤ A[i] ≤ 109) separados por espacio.
+
+Salida
+Imprime un único entero, la mediana del array.
+
+Ejemplo
+==INPUT==
+4
+2 3 4 1
+==OUTPUT==
+2
+==INPUT==
+5
+2 3 4 1 5
+==OUTPUT==
+3
+
+
+Ir al inicio
+
+Problema 1
+
+
+C++
+ Ningún archivo seleccionado Enviar respuesta
+Mediana absoluta
+Dado un array de tamaño N, encuentra su mediana absoluta. La diferencia con la mediana normal es que para ordenar se utiliza el valor absoluto del número, y si hay empates se compara su valor real.
+
+Recuerda que la mediana de un array de tamaño N es el elemento del array ordenado en la posición ⌊(N+1)/2⌋.
+
+
+Entrada
+Una línea con un entero N (1 ≤ n ≤ 105) seguido de una línea con N enteros A[i] (1 ≤ A[i] ≤ 109) separados por espacio.
+
+Salida
+Imprime un único entero, la mediana del array.
+
+Ejemplo
+==INPUT==
+4
+2 -3 -4 1
+==OUTPUT==
+2
+==INPUT==
+5
+2 -3 4 -1 -5
+==OUTPUT==
+-3
+
+
+
+
+Ir al inicio
+
+Problema 2
+
+
+C++
+ Ningún archivo seleccionado Enviar respuesta
+Ordenación por suma de dígitos
+Dada una lista de números enteros no negativos, ordénalos en orden creciente según la suma de sus dígitos. En caso de empate, ordénalos lexicográficamente como cadenas.
+
+Entrada
+La primera línea contiene un entero N (1 ≤ n ≤ 105), la cantidad de números.
+
+La segunda línea contiene N números separados por espacios, cada una representando un número A[i] (1 ≤ n ≤ 1000).
+
+Salida
+Imprime los n números ordenados según el criterio descrito.
+
+Ejemplos
+==INPUT==
+5
+123 99 10 111 20
+==OUTPUT==
+10 20 111 123 99
+==INPUT==
+4
+9 81 18 27
+==OUTPUT==
+18 27 9 81
+
+
+Ir al inicio
+
+Problema 3
+
+
+C++
+ Ningún archivo seleccionado Enviar respuesta
+Martha habla pero con dislexia
+Martha comió un lote caducado de sopa de letras y el abecedario en su cabeza está desordenado. Ordena las palabras que se darán según el nuevo orden del abecedario de Martha.
+
+Entrada
+La primera línea tiene un entero N (1 ≤ n ≤ 104) y una cadena de 26 letras minúsculas que representa el nuevo orden del abecedario.
+
+Las siguiente N líneas tienen una palabra de no más de 100 letras en minúsculas.
+
+Salida
+Imprime las N palabras separadas por nuevas líneas en el orden lexicografico según el nuevo abecedario de Martha.
+
+Ejemplos
+==INPUT==
+4 abcdefghijklmnopqrstuvwxyz
+hola
+adios
+pablo
+zapato
+==OUTPUT==
+adios
+hola
+pablo
+zapato
+==INPUT==
+4 zpabcdefghijklmnoqrstuvwxy
+hola
+adios
+pablo
+zapato
+==OUTPUT==
+zapato
+pablo
+adios
+hola
+
+
+
+Ir al inicio
+
+Problema 4
+
+
+C++
+ Ningún archivo seleccionado Enviar respuesta
+Validación de paréntesis
+Dada una cadena compuesta únicamente por los caracteres ( y ), determina si la secuencia es válida.
+
+Una secuencia es válida si:
+
+Cada paréntesis de apertura tiene un correspondiente de cierre.
+Los paréntesis están correctamente anidados.
+Entrada
+Una sola línea con una cadena s de longitud hasta 106, que contiene únicamente ( y ).
+
+Salida
+Imprime YES si la secuencia es válida, o NO en caso contrario.
+
+Ejemplos
+==INPUT==
+()
+==OUTPUT==
+YES
+==INPUT==
+(())
+==OUTPUT==
+YES
+==INPUT==
+())(
+==OUTPUT==
+NO
+
+
+
+Ir al inicio
+
+Problema 5
+
+
+C++
+ Ningún archivo seleccionado Enviar respuesta
+Frecuencia máxima
+Dado un arreglo de n enteros, encuentra cuántas veces aparece el elemento más frecuente.
+
+Entrada
+La primera línea contiene un entero n (1 ≤ n ≤ 105).
+La segunda línea contiene n enteros a[i] (1 ≤ a[i] ≤ 1000).
+
+Salida
+Imprime un entero: la frecuencia del valor que más veces aparece.
+
+Ejemplos
+==INPUT==
+5
+1 2 2 3 1
+==OUTPUT==
+2
+==INPUT==
+6
+4 4 4 4 4 4
+==OUTPUT==
+6
+
+
+
+Ir al inicio
+
+Problema 6
+
+
+C++
+ Ningún archivo seleccionado Enviar respuesta
+Eliminar duplicados consecutivos
+Dada una cadena, elimina todos los caracteres consecutivos repetidos.
+
+Entrada
+Una cadena s de longitud hasta 105.
+
+Salida
+La cadena resultante.
+
+Ejemplo
+==INPUT==
+aaabbbcca
+==OUTPUT==
+abca
+
+
+
+Ir al inicio
+
+Problema 7
+
+
+C++
+ Ningún archivo seleccionado Enviar respuesta
+Rotación a la derecha
+Dado un arreglo de N enteros, rota el arreglo K posiciones a la derecha.
+
+Entrada
+Primera línea: dos enteros N y K (1 ≤ n ≤ 105, 0 ≤ k ≤ 109).
+Segunda línea: N enteros.
+
+Salida
+Imprime el arreglo resultante.
+
+Ejemplo
+==INPUT==
+5 2
+1 2 3 4 5
+==OUTPUT==
+4 5 1 2 3
+
+
+
+Ir al inicio
+
+Problema 8
+
+
+C++
+ Ningún archivo seleccionado Enviar respuesta
+Segmentos crecientes
+Dado un arreglo, cuenta cuántos segmentos crecientes máximos existen.
+
+Un segmento creciente es una subsecuencia contigua donde cada elemento es estrictamente mayor que el anterior.
+
+Entrada
+Primera línea: N (1 ≤ N ≤ 105). Segunda línea: N enteros A[i] (1 ≤ A[i] ≤ 100).
+
+Salida
+Un entero: cantidad de segmentos crecientes.
+
+Ejemplo
+==INPUT==
+5
+1 2 2 3 4
+==OUTPUT==
+3
+Segmentos: [1,2], [2,3,4]
+
+
+
+Ir al inicio
+
+Problema 9
+
+
+C++
+ Ningún archivo seleccionado Enviar respuesta
+Subarreglo de suma máxima
+Dado un arreglo de n enteros, encuentra la suma máxima de un subarreglo contiguo no vacío.
+
+Entrada
+La primera línea contiene un entero n (1 ≤ n ≤ 105).
+La segunda línea contiene n enteros a[i] (−103 ≤ a[i] ≤ 103).
+
+Salida
+Imprime un entero: la suma máxima posible de un subarreglo contiguo no vacío.
+
+Ejemplos
+==INPUT==
+5
+1 -2 3 4 -1
+==OUTPUT==
+7
+==INPUT==
+3
+-5 -2 -8
+==OUTPUT==
+-2
+
+
+
